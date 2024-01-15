@@ -1,0 +1,122 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	background-color: black;
+	height: 50px;
+	font-family: sans-serif;}
+
+nav ul {
+	height: 50px;
+}
+nav ul li {
+	list-style-type: none;
+	width: 150px;
+	float: left;
+}
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+#currentpage a {
+	background: #efefef;
+	color: #000;
+}
+nav ul li a:hover {
+	background-color: #efefef;
+	color: black;
+}
+/*
+img.imageCenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+}
+*/
+#headerImage{
+	height: 250;
+	width: 1080;
+	background-image: url('./logo.jpg');
+    background-size: 1080px 250px;
+    background-repeat: no-repeat;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#headerImageText{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 100px;
+	color: ffffff;
+	font-size: 50px;
+	background-color: 000000;
+	border-radius: 10px;
+}
+.float{
+	width: 1080;
+    background-size: 1080px 0px;
+    background-repeat: no-repeat;
+	display: block;
+
+}
+#leftBanner {
+	background-color: white;
+	padding: 500px 500px 300px 500px;
+	font-size: 30px;
+}
+#imageShadow {
+	box-shadow: 10px 10px 5px #888888;
+}
+#greyBanner {
+	background-color: #ccc;
+	width:250px;
+	padding:28px 0px 630px 30px;
+	float: left;
+	border-bottom-right-radius: 30px;
+}
+#headerBar {
+	background-color: black;
+	padding: 10px;
+	width: 760px;
+	color: white;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+}
+.divBorder {
+	border-radius:30px;
+	overflow: hidden;
+	margin-left: auto;
+    margin-right: auto;
+    width: 1080;
+    border: solid 1px #aaa;
+    box-shadow: 10px 10px 5px #888888;
+}
+.mainContent {
+	width:780px;
+	float: left;
+	padding: 10px;
+}
+.imageLeft {
+	float: left;
+	margin: 10px 10px 10px 0px;
+}
+p {
+	margin-bottom: 10px;
+	text-indent: 50px;
+}
+}
+.imageRight {
+	float: right;
+	margin: 10px 10px 10px 0px;
+}
